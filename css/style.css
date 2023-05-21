@@ -20,10 +20,10 @@ body.fade-out{
 /*Heading Elements */
 h1{
     text-transform: uppercase;
-    font-family: Impact, fantasy;
+    font-family:cursive;
     text-align: center;
     margin-top: 5%;
-    color:rgb(9, 179, 231);
+    color:rgb(114, 243, 9);
 }
 
 h1:hover{
@@ -33,7 +33,7 @@ h1:hover{
 }
 
 p {
-    font-family: monospace;
+    font-family: 'Times New Roman';
     font-size: 23px;
     padding-left: 20px;
     padding-right: 20px;
@@ -371,7 +371,7 @@ form{
 
 /* General styling for all buttons */
 button {
-    font-family: "Trebuchet MS", Optima;
+    font-family: cursive;
     letter-spacing: .3vw; /* Adds slight spacing between the letters */
     font-size: 1.5vw; /* Relative sizing of text */
     font-weight: bold; 
