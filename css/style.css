@@ -205,14 +205,14 @@ input[type=submit]{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: fantasy;
+    font-family: cursive;
     font-size: 20px;
 }
 
 form{
-    color: rgb(231, 19, 65);
+    color: chocolate;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: cursive;
     padding: 10px;
     border-radius: 5px;
 }
@@ -325,8 +325,8 @@ form{
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
-    color: black; /* Sets the color of the button text to black */
+    background-color: orange; /* Sets the background color of the button to white */
+    color: green; /* Sets the color of the button text to black */
     border: solid black; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
@@ -392,23 +392,23 @@ button:hover, .form-container .btn:hover {
 
 /* Submit button */
 .form-container .btn {
-    background-color: white; 
-    color: black;
+    background-color: orange; 
+    color: green;
     border-color: black;
     margin-bottom: 1vh; /* Adds space between the submit button and the close button */
 }
 
 /* Close button */
 .form-container .cancel {
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: green;
     border-color: gray;
 }
 
 /* Styling for close button on hover */
 .form-container .cancel:hover {
-    color: white;
-    background-color: darkred;
+    color: rgb(75, 167, 167);
+    background-color: rgb(116, 10, 236);
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
