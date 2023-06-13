@@ -130,7 +130,8 @@ img:hover{
     z-index: -1;
 }
 
-#media screen and (max-width: 576px){
+#media screen and (max-width: 576px)
+{
     #Working_Video {
         display: none;
     }
