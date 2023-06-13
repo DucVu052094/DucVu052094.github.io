@@ -1,4 +1,7 @@
+audio = new Audio("./video/yay.mp3");
+
 function openForm() {
+    audio.play();
     document.getElementById("myForm").style.display = "block";
 }
 
