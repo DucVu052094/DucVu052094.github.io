@@ -1,4 +1,4 @@
-var audio = new Audio('./video/yay.mp3');
+var audio = new Audio('yay.mp3');
 
 function openForm() {
     audio.play();
